@@ -7,15 +7,9 @@
 #include <stdio.h>
 #define _CRT_SECURE_NO_WARNINGS
 #include <windows.h>
-#define ONGI_ETORRI_MEZUA "Sakatu return hasteko..."
 #define SCORE_TEXTUA "Zure puntuaketa:"
 #define JOKOA_SOUND ".\\sound\\BULEGOA.wav"
-#define JOKOA_SOUND_WIN ".\\sound\\BugleCall.wav"
-#define JOKOA_SOUND_LOOSE ".\\sound\\terminator.wav" 
-#define BUKAERA_SOUND_1 ".\\sound\\128NIGHT_01.wav"
-#define BUKAERA_IMAGE ".\\img\\gameOver_1.bmp"
 #define ZUZENA ".\\img\\zuzena.bmp"
-#define OKERRA ".\\img\\okerra.bmp"
 #define FILAK 48
 #define ZUTABEAK 64
 #define JOKOA_SOUND_BULEGOA ".\\sound\\musikaBulegoa.wav"
@@ -25,6 +19,7 @@
 #define JOKOA_SOUND_MAPA ".\\sound\\musikaMapaNagusia.wav"
 #define JOKOA_SOUND_ZUBIA ".\\sound\\musikaZubikoPuzzlea.wav"
 #define BUKAERA_SOUND_1 ".\\sound\\128NIGHT_01.wav"
+
 int mapa[FILAK][ZUTABEAK];
 JOKO_ELEMENTUA jokalaria;
 int mugimenduaezkerra, up, mugimenduabehean, mugimenduaeskuina;
@@ -37,7 +32,6 @@ EGOERA jokatu(void)
 	int ebentu = 0, hasiera = 0, elkarrizketa = 0, puzzleKultoIrudia = 0, menu2 = 0, menuFinal = 1, puzzleKultoGalduIrudia = 0, puzzleKulto = 0, saiatuBerriz = 0, puzzleHilketa = 0, puzzle2 = 0, puzzleMaltzurra = 0, lortuPuzzlea = 0, kulto = 0, arropa = 0, kultoa = 0, hasi = 0, menu = 1, nota1 = 0, nota2 = 0, nota3 = 0, nota4 = 0, nota5 = 0, nota6 = 0, printeatuScore = 0;
 	int  puzzle6 = 0, hasierakoElkarrizketa = 0, jokoahasi = 0, probafinal = 0, puzzlefinal = 0, scorepuzzle = 0, jokoarenAmaiera,amaiera=0;
 	JOKO_ELEMENTUA mapaglobal;
-	//Uint32 time01 = SDL_GetTicks(), time02;
 	jokalaria.pos.x = 500;
 	jokalaria.pos.y = 400;
 	audioInit();
