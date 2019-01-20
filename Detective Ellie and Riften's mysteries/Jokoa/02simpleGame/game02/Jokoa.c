@@ -63,7 +63,7 @@ EGOERA jokatu(void)
 			menu = 1;
 			printeatuScore = 1;
 		}
-		if (printeatuScore == 1)//Puzzleen, elkarrizketen eta noteen batura{
+		if (printeatuScore == 1){//Puzzleen, elkarrizketen eta noteen batura
 			score = score + scorepuzzle;
 			printeatuScore = 0;
 			score = score + scoreerreka;
@@ -76,7 +76,7 @@ EGOERA jokatu(void)
 			pantailaBerriztu();
 			Sleep(5000);
 			jokoahasi = -1;
-			}
+		}
 		filak = jokalaria.pos.y / 10;//jokalariaren posizioa matrizera pasatzeko kalkuloa y ardatzan
 		zutabeak = jokalaria.pos.x / 10;//jokalariaren posizioa matrizera pasatzeko kalkuloa x ardatzan
 		if (mapa[filak][zutabeak] == 1) {//ezkerreko kolisioa egin
@@ -210,7 +210,7 @@ EGOERA jokatu(void)
 			else if (kultoa == 2) {//jokatu berriro
 				score = score - 50;
 			}
-			else if(kulto==3){//bueltatu menura
+			else if(kultoa==3){//bueltatu menura
 				hasierakoElkarrizketa = 0;
 				jokoahasi = 0;
 				menu = 1;
