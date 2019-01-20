@@ -18,7 +18,6 @@
 #define JOKOA_SOUND_KRIMENA ".\\sound\\musikaKrimenarenEtxean.wav"
 #define JOKOA_SOUND_MAPA ".\\sound\\musikaMapaNagusia.wav"
 #define JOKOA_SOUND_ZUBIA ".\\sound\\musikaZubikoPuzzlea.wav"
-#define BUKAERA_SOUND_1 ".\\sound\\128NIGHT_01.wav"
 
 int mapa[FILAK][ZUTABEAK];
 JOKO_ELEMENTUA jokalaria;
