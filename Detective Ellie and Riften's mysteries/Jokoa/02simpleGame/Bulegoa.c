@@ -7,8 +7,6 @@
 #include <stdio.h>
 #include <windows.h>
 #define JOKOA_BULEGOA_IMAGE ".\\img\\bulegoa.bmp"
-#define JOKOA_BULEGOABALANTZA_IMAGE ".\\img\\bulegoa_balantza.bmp"
-#define JOKOA_BULEGOALIBURUTEGIA_IMAGE ".\\img\\bulegoa_liburutegia.bmp"
 #define JOKOA_BULEGOAELKARRIZKETA_IMAGE ".\\img\\ELKARRIZKETA.bmp"
 #define JOKOA_BULEGOAELKARRIZKETA1_IMAGE ".\\img\\ELKARRIZKETA1.bmp"
 #define JOKOA_BULEGOAELKARRIZKETA2_IMAGE ".\\img\\ELKARRIZKETA2.bmp"
@@ -28,30 +26,6 @@ int JOKOA_bulegoaIrudiaSortu()
 	irudiakMarraztu();
 	pantailaBerriztu();
 	return bulegoId;
-}
-
-//Balantzaren textua pantailaratu
-int JOKOA_bulegoatxt1IrudiaSortu()
-{
-	int bulegobalantzaId = -1;
-	bulegobalantzaId = irudiaKargatu(JOKOA_BULEGOABALANTZA_IMAGE);
-	irudiaMugitu(bulegobalantzaId, 0, 380);
-	pantailaGarbitu();
-	irudiakMarraztu();
-	pantailaBerriztu();
-	return bulegobalantzaId;
-}
-
-//Liburutegiko textua pantailaratu
-int JOKOA_bulegoatxt2IrudiaSortu()
-{
-	int bulegoliburutegiaId = -1;
-	bulegoliburutegiaId = irudiaKargatu(JOKOA_BULEGOALIBURUTEGIA_IMAGE);
-	irudiaMugitu(bulegoliburutegiaId, 0, 380);
-	pantailaGarbitu();
-	irudiakMarraztu();
-	pantailaBerriztu();
-	return bulegoliburutegiaId;
 }
 
 //Ofizialarekin elkarrizketakoren lehen textua pantailaratu
@@ -136,13 +110,13 @@ int mapBulegoa[FILAK][ZUTABEAK] = {
 	{1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 41, 41, 41,41,41,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,4,2,7,7,2,2,1,2,2,2,2,2,2,2,2,2,7,2,2,2,2,2,0},
 	{1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 41, 41, 41, 41, 41,41,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,4,5,7,2,2,2,5,2,2,2,2,2,2,2,2,4,7,2,2,4,0,0,0},
 	{1, 0, 0, 1, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 41, 41, 41, 41, 41,41,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,4,1,4,2,2,2,0,0,0,0,0,0,0,0,0,4,40,40,7,4,0,0,0},
-	{1, 0, 0, 1, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 1, 41, 41, 41, 41, 41,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,1,0,26,26,0,0,0,0,0,0,0,0,0,0,0,0,0,7,4,0,0,0},
+	{1, 0, 0, 1, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 1, 41, 41, 41, 41, 41,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,4,0,0,0},
 	{1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 41, 41,41, 41, 41,41,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,0,0,0},
 	{1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 41, 41, 41, 41, 41,41,0,0,0,0,0,0,0,0,0,0,0,0,0,0 ,0,0,0,0,4,2,2,1,0,0,0,0,0,0,0,8,3,3,3,3,3,6,0,0,4,4,0,0,0},
 	{1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 24, 0, 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,4,3,1,1,1,3,1,0,0,4,4,0,0,0},
 	{1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 24, 0, 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,3,3,1,0,0,0,0,0,0,0,4,2,2,2,1,2,1,0,0,4,4,0,0,0},
 	{1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 24, 0, 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,4,1,0,0,0,0,0,0,7,2,2,2,2,2,5,0,0,0,4,4,0,0,0},
-	{1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 0, 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,4,1,0,0,0,0,0,0,0,25,25,25,25,25,0,0,0,4,4,4,0,0,0},
+	{1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 0, 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,0,0,0},
 	{1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 0, 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,0,0,0},
 	{1, 0, 0, 1, 3, 3, 3, 3, 3,3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,3,3,3,3,3,3,3,3,3,0,0,0,0,0,3,3,3,3,3,8,3,4,1,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,4,4,3,3,0},
 	{1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0,0,0,0,0,0,0,0,1,1,0,0,0,4,4,0,0,0,4,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,3,3,0,0,0},
@@ -186,14 +160,6 @@ void bulegoTextSortu() {
 	Sleep(6000);
 	jokalaria.pos.x = jokalaria.pos.x + 32;
 	irudiaKendu(mapaglobal.id);
-}
-
-//Liburutegiko textua
-void bulegoLiburutegia() {
-	JOKO_ELEMENTUA bulegoaliburutegia;
-	bulegoaliburutegia.id = JOKOA_bulegoatxt2IrudiaSortu();
-	Sleep(4000);
-	irudiaKendu(bulegoaliburutegia.id);
 }
 
 //Ofizialarekin hitz egin baino lehenago bulegotik irten nahi bada
