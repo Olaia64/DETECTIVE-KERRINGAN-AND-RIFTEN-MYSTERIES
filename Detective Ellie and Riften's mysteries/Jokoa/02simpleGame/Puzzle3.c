@@ -7,8 +7,6 @@
 #include <stdio.h>
 #include <windows.h>
 
-#define PUZZLE_3_TESTUA "Maltzurraren argazkiaren negatiboaz erretratu egokia aukeratu. 1 zenbakia sakatzen"
-#define PUZZLE_3_TESTUA_2 "lehenengo irudia aukeratzen duzu eta 2 zenbakia sakatzen bigarrengoa"
 #define PUZZLE_3 ".\\img\\Puzzle4.bmp"
 #define KUADRO ".\\img\\cuadrito.bmp"
 
