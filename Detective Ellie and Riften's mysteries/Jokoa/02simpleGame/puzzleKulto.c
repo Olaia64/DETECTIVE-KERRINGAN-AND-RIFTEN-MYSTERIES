@@ -85,9 +85,9 @@ int puzzle3(arropa) {
 			}
 		}
 		else {
-			mapaglobal.id = JOKOA_HilketatxtIrudiaSortu();
+			mapaglobal.id = JOKOA_KultotxtIrudiaSortu();
 			Sleep(4500);
-			mapaglobal.id = JOKOA_Hilketatxt1IrudiaSortu();
+			mapaglobal.id = JOKOA_Kultotxt1IrudiaSortu();
 			Sleep(4500);
 			jokalaria.pos.y = jokalaria.pos.y + 40;
 			mapaglobal.id = JOKOA_Mapa1IrudiaSortu();
