@@ -52,7 +52,7 @@ int JOKOA_ErrekaIrudiaSortu()
 }
 
 //Kultora sartu nahi bada arroparik gabe dagoen elkarrizketaren lehen textua pantailaratu
-int JOKOA_HilketatxtIrudiaSortu()
+int JOKOA_KultotxtIrudiaSortu()
 {
 	int hilketatxtId = -1;
 	hilketatxtId = irudiaKargatu(JOKOA_KULTOTXT_IMAGE);
@@ -64,7 +64,7 @@ int JOKOA_HilketatxtIrudiaSortu()
 }
 
 //Kultora sartu nahi bada arroparik gabe dagoen elkarrizketaren bigarren textua pantailaratu
-int JOKOA_Hilketatxt1IrudiaSortu()
+int JOKOA_Kultotxt1IrudiaSortu()
 {
 	int hilketatxt1Id = -1;
 	hilketatxt1Id = irudiaKargatu(JOKOA_KULTOTXT1_IMAGE);
