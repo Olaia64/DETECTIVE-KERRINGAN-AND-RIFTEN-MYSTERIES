@@ -42,12 +42,12 @@ int amaieraMenua() {
 			menuFinal = 0;
 		}
 		if (menuFinal == 0) {
-			if (ebentu == TECLA_UP) {
+			if (ebentu == TECLA_UP || ebentu == TECLA_w) {
 				irudiaKendu(mapaglobal.id);
 				mapaglobal.id = menuBueltatu();
 				menu2 = 0;
 			}
-			if (ebentu == TECLA_DOWN) {
+			if (ebentu == TECLA_DOWN || ebentu == TECLA_s) {
 				irudiaKendu(mapaglobal.id);
 				mapaglobal.id = menuIrten();
 				menu2 = 1;
