@@ -1,0 +1,57 @@
+﻿  ebentoak.c
+c:\users\thewy\desktop\popbl\sdl2-0-7examplesvcws\simplesdlwrapper\ebentoak.h(3): fatal error C1083: No se puede abrir el archivo incluir: 'SDL.h': No such file or directory
+  graphics.c
+c:\users\thewy\desktop\popbl\sdl2-0-7examplesvcws\simplesdlwrapper\graphics.c(8): fatal error C1083: No se puede abrir el archivo incluir: 'SDL_ttf.h': No such file or directory
+  imagen.c
+c:\users\thewy\desktop\popbl\sdl2-0-7examplesvcws\simplesdlwrapper\imagen.c(2): fatal error C1083: No se puede abrir el archivo incluir: 'SDL.h': No such file or directory
+  soinua.c
+c:\users\thewy\desktop\popbl\sdl2-0-7examplesvcws\simplesdlwrapper\soinua.h(6): fatal error C1083: No se puede abrir el archivo incluir: 'SDL_mixer.h': No such file or directory
+  text.c
+c:\users\thewy\desktop\popbl\sdl2-0-7examplesvcws\simplesdlwrapper\text.c(2): fatal error C1083: No se puede abrir el archivo incluir: 'SDL_TTF.h': No such file or directory
+  jokoaMain.c
+c:\users\thewy\desktop\popbl\sdl2-0-7examplesvcws\02simplegame\jokoamain.c(8): fatal error C1083: No se puede abrir el archivo incluir: 'imagen.h': No such file or directory
+  amaierakoMenua.c
+c:\users\thewy\desktop\popbl\sdl2-0-7examplesvcws\02simplegame\amaierakomenua.c(1): fatal error C1083: No se puede abrir el archivo incluir: 'game02.h': No such file or directory
+  Bulegoa.c
+c:\users\thewy\desktop\popbl\sdl2-0-7examplesvcws\02simplegame\bulegoa.c(1): fatal error C1083: No se puede abrir el archivo incluir: 'game02.h': No such file or directory
+  elkarrizketaFinala.c
+c:\users\thewy\desktop\popbl\sdl2-0-7examplesvcws\02simplegame\elkarrizketafinala.c(1): fatal error C1083: No se puede abrir el archivo incluir: 'game02.h': No such file or directory
+  Ellie.c
+c:\users\thewy\desktop\popbl\sdl2-0-7examplesvcws\02simplegame\ellie.c(1): fatal error C1083: No se puede abrir el archivo incluir: 'game02.h': No such file or directory
+  Erreka.c
+c:\users\thewy\desktop\popbl\sdl2-0-7examplesvcws\02simplegame\erreka.c(1): fatal error C1083: No se puede abrir el archivo incluir: 'game02.h': No such file or directory
+  Galdu.c
+c:\users\thewy\desktop\popbl\sdl2-0-7examplesvcws\02simplegame\galdu.c(1): fatal error C1083: No se puede abrir el archivo incluir: 'game02.h': No such file or directory
+  Jokoa.c
+c:\users\thewy\desktop\popbl\sdl2-0-7examplesvcws\02simplegame\game02\game02.h(4): fatal error C1083: No se puede abrir el archivo incluir: 'ourTypes.h': No such file or directory
+  Hasiera.c
+c:\users\thewy\desktop\popbl\sdl2-0-7examplesvcws\02simplegame\hasiera.c(1): fatal error C1083: No se puede abrir el archivo incluir: 'game02.h': No such file or directory
+  hasierakoMenua.c
+c:\users\thewy\desktop\popbl\sdl2-0-7examplesvcws\02simplegame\hasierakomenua.c(1): fatal error C1083: No se puede abrir el archivo incluir: 'game02.h': No such file or directory
+  Hilketa.c
+c:\users\thewy\desktop\popbl\sdl2-0-7examplesvcws\02simplegame\hilketa.c(1): fatal error C1083: No se puede abrir el archivo incluir: 'game02.h': No such file or directory
+  Kultoa.c
+c:\users\thewy\desktop\popbl\sdl2-0-7examplesvcws\02simplegame\kultoa.c(1): fatal error C1083: No se puede abrir el archivo incluir: 'game02.h': No such file or directory
+  Mugimendua.c
+c:\users\thewy\desktop\popbl\sdl2-0-7examplesvcws\02simplegame\mugimendua.c(1): fatal error C1083: No se puede abrir el archivo incluir: 'game02.h': No such file or directory
+  Nagusia.c
+c:\users\thewy\desktop\popbl\sdl2-0-7examplesvcws\02simplegame\nagusia.c(1): fatal error C1083: No se puede abrir el archivo incluir: 'game02.h': No such file or directory
+  Notak.c
+c:\users\thewy\desktop\popbl\sdl2-0-7examplesvcws\02simplegame\notak.c(1): fatal error C1083: No se puede abrir el archivo incluir: 'game02.h': No such file or directory
+  Generando código...
+  Compilando...
+  pausaMenua.c
+c:\users\thewy\desktop\popbl\sdl2-0-7examplesvcws\02simplegame\pausamenua.c(1): fatal error C1083: No se puede abrir el archivo incluir: 'game02.h': No such file or directory
+  puzzle1.c
+c:\users\thewy\desktop\popbl\sdl2-0-7examplesvcws\02simplegame\puzzle1.c(1): fatal error C1083: No se puede abrir el archivo incluir: 'game02.h': No such file or directory
+  Puzzle2.c
+c:\users\thewy\desktop\popbl\sdl2-0-7examplesvcws\02simplegame\puzzle2.c(1): fatal error C1083: No se puede abrir el archivo incluir: 'game02.h': No such file or directory
+  Puzzle3.c
+c:\users\thewy\desktop\popbl\sdl2-0-7examplesvcws\02simplegame\puzzle3.c(1): fatal error C1083: No se puede abrir el archivo incluir: 'game02.h': No such file or directory
+  Puzzle4.c
+c:\users\thewy\desktop\popbl\sdl2-0-7examplesvcws\02simplegame\puzzle4.c(1): fatal error C1083: No se puede abrir el archivo incluir: 'game02.h': No such file or directory
+  puzzlehilketa.c
+c:\users\thewy\desktop\popbl\sdl2-0-7examplesvcws\02simplegame\puzzlehilketa.c(1): fatal error C1083: No se puede abrir el archivo incluir: 'game02.h': No such file or directory
+  puzzleKulto.c
+c:\users\thewy\desktop\popbl\sdl2-0-7examplesvcws\02simplegame\puzzlekulto.c(1): fatal error C1083: No se puede abrir el archivo incluir: 'game02.h': No such file or directory
+  Generando código...

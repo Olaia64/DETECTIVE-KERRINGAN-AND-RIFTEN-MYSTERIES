@@ -1,0 +1,35 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: El directorio intermedio (Debug\) contiene archivos compartidos de otro proyecto (02simpleGame.vcxproj). Esto puede dar lugar a un comportamiento incorrecto de limpieza y recompilación.
+  ebentoak.c
+  graphics.c
+  imagen.c
+  soinua.c
+  text.c
+  jokoaMain.c
+  amaierakoMenua.c
+  Bulegoa.c
+  elkarrizketaFinala.c
+  Ellie.c
+  Erreka.c
+  Galdu.c
+  Jokoa.c
+d:\descargas\popbl\detective ellie and riften's mysteries\jokoa\02simplegame\game02\jokoa.c(75): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: vea la declaración de 'sprintf'
+  Hasiera.c
+  hasierakoMenua.c
+  Hilketa.c
+  Kultoa.c
+  Mugimendua.c
+  Nagusia.c
+  Notak.c
+  Generando código...
+  Compilando...
+  pausaMenua.c
+  puzzle1.c
+  Puzzle2.c
+  Puzzle3.c
+  Puzzle4.c
+  puzzlehilketa.c
+  puzzleKulto.c
+  Generando código...
+     Creando biblioteca D:\Descargas\POPBL\Detective Ellie and Riften's mysteries\Jokoa\Debug\Jokoa.lib y objeto D:\Descargas\POPBL\Detective Ellie and Riften's mysteries\Jokoa\Debug\Jokoa.exp
+  02simpleGame.vcxproj -> D:\Descargas\POPBL\Detective Ellie and Riften's mysteries\Jokoa\Debug\Jokoa.exe
