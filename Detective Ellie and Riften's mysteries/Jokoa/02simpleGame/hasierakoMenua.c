@@ -9,7 +9,6 @@
 #define JOKOA_HASI_IMAGE ".\\img\\MenuHasi.bmp"
 #define JOKOA_KONTROLAK_IMAGE ".\\img\\kontrolakMenu.bmp"
 #define JOKOA_IRTEN_IMAGE ".\\img\\MenuIrten.bmp"
-#define JOKOA_IRTEN_IMAGE ".\\img\\MenuIrten.bmp"
 #define JOKOA_PUNTUAKETA_IMAGE ".\\img\\Puntuaketa.bmp"
 #define JOKOA_KONTROLAK2_IMAGE ".\\img\\Kontrolakdefinitibobmp.bmp"
 #define JOKOA_SOUND_BULEGOA ".\\sound\\musikaBulegoa.wav"
