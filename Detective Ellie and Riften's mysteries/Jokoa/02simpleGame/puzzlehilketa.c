@@ -53,12 +53,12 @@ int lehenengoPuzzlea() {
 				puzzle2 = 1;
 			}
 			ebentu = ebentuaJasoGertatuBada();
-			if (ebentu == TECLA_DOWN) {
+			if (ebentu == TECLA_DOWN||ebentu==TECLA_s) {
 				irudiaKendu(mapaglobal.id);
 				mapaglobal.id = JOKOA_galdu1IrudiaSortu();
 				saiatuBerriz = 1;
 			}
-			if (ebentu == TECLA_UP) {
+			if (ebentu == TECLA_UP||ebentu==TECLA_w) {
 				irudiaKendu(mapaglobal.id);
 				mapaglobal.id = JOKOA_galduIrudiaSortu();
 				saiatuBerriz = 0;
